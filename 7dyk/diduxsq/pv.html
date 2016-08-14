@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>访问量查询</title>
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+      <link rel="stylesheet" href="css/pv.css">
+     <script src="js/pvaction.js"></script>
+  <script src="js/jquery-1.7.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script>
+  $(function() {
+      $( "#datepicker1" ).datepicker({dateFormat: 'yy-mm-dd'});
+     $( "#datepicker2" ).datepicker({dateFormat: 'yy-mm-dd'});
+
+  });
+  </script>
+</head>
+<body>
+ 
+<div class="date">    
+<p>起始时间: <input type="text" id="datepicker1"></p>
+ </div>
+
+    
+    <div class="date">   
+<p>终止时间: <input type="text" id="datepicker2"></p>
+    </div>   
+    
+        <div class="date">   
+<p><input type="button" value="确认" onclick="getdata()"></p>
+ </div>
+    
+    
+    <div id="result">
+        <ul id="list">
+        </ul>        
+    </div>
+ 
+</body>
+</html>

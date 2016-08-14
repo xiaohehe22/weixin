@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>全民找大陆</title>
+	<link  rel="stylesheet" href="css/reset.css" type="text/css">
+	<link  rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="js/commonFunctions.js" type="text/javascript"></script>
+<script type="text/javascript">
+    if(IsPC()){
+    	window.location.href="error.html";
+    }
+	$(document).ready(function(){
+		setScreen();  
+        $("#logo").slideDown("slow",function(){
+        setTimeout(' $("#logo").hide();$("#start").slideDown("slow");',2000);
+        });
+	});
+</script>
+
+<body>
+<div  style="width:0px; height:0px; overflow:hidden"><img src="images/diduxsq400.jpg" ></div>
+<div id="bg">
+	<div id="body">
+         <div id="header">
+		<img src="images/1_fault.png"/>
+        <img src="images/1_right.png"/>
+        <img src="images/2_fault.png"/>
+        <img src="images/2_right.png"/>
+        <img src="images/3_fault.png"/>
+        <img src="images/3_right.png"/>
+	</div>
+        <div id="logo">
+            <img src="images/1.jpg"/>
+		</div>
+
+        
+		<div id="start">
+			<img id="header1" src="images/header1.png"/>
+			<img id="header2" src="images/header2.png"/>
+            <img id="startimg" src="images/head.png"/>
+            <input id="input1" class="inputall" type="button" onclick="game()"/>
+            <input id="input2" class="inputall" type="button" onclick='window.location="http://2.diduxsq.sinaapp.com/diduxsq.html"'/>
+            <input id="input3" class="inputall" type="button" onclick='window.location="http://2.diduxsq.sinaapp.com/diduxsq.html"'/>
+            <img id="header3" src="images/header3.png"/>
+            <img class="footerlogo" src="images/footer.png"/>
+		</div>
+
+		<div id="game">
+            <img id="header21" src="images/header21.png"/>
+          
+			<div id="datas">	
+                <div id="level"><p>关数:<span></span></p></div>
+                <div id="round"><span></span></div>
+                <div id="time"><p><span></span>s</p></div>               
+			</div>
+			<div id="main"></div>
+            <img class="footerlogo" src="images/footer.png"/>
+		</div>
+
+		<div id="end">
+			<div id="result">
+				<img class="zhuanfa" src="images/zhuanfa.png"/>
+				<h2>我找到了<span id="levelnum"></span>个王大陆，用时<span id="timenum"></span>秒</h2>
+                <h2>排在朋友圈中第<span id="ranknum"></span>位</h2>
+                <h1 id="comment"></h1>
+                 <input id="input31" class="inputall" type="button" onclick="getrank()"/>   
+                <input id="input32" class="inputall" type="button" onclick="game()"/>
+                <input id="input33" class="inputall" type="button" onclick="getform()"/>  
+                 <img class="line" src="images/line.png"/>
+                <img class="ps" src="images/ps.png"/>
+                <img class="footerlogo" src="images/footer.png"/>
+		    </div>
+			<div id="upload">
+                <h1>联系方式</h1>
+                <p><span>昵称: </span><input  class="inputall" id="name" type="text" /></p>
+                <p><span>手机: </span><input  class="inputall" id="phone" type="text" /></p>
+				<input  id="input41" class="inputall" type="button"  onclick="upload()"/>
+                 <input   id="input42" class="inputall" type="button" onclick="game()"/> 
+                  <img class="line" src="images/line.png"/>
+                 <img class="ps" src="images/ps.png"/>
+                 <img class="footerlogo" src="images/footer.png"/>
+			</div>
+            <div id="rank">
+                <div id="list"></div>
+                 <input id="input51" class="inputall" type="button" onclick="game()"/>
+                <img class="footerlogo" src="images/footer.png"/>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+	</div>
+</div>
+<script src="js/finder.js" type="text/javascript"></script>
+
+</body>
+</html>

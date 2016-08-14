@@ -1,0 +1,246 @@
+#bg{
+    margin:0 auto;
+}
+
+.back{
+   background-image:url(../images/back.jpg);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+}
+
+#logo{
+    display:none;
+    width:60%;
+    height:20%;
+    position:relative;
+    top:0;
+    left:20%;
+    z-index: 1;
+}
+
+#imglogo{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+#imgshare{
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    width:100%;
+    height:100%;
+}
+
+#start{
+    display:none;
+    width:60%;
+    height:50%;
+    position:relative;
+    top:0;
+    left:20%;
+    background-image:url(../images/start.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#start img{
+    position:absolute;
+    top:75%;
+    left:25%;
+    width:50%;
+    height:20%;
+}
+
+
+
+#all_canvas{
+    display: none;
+    position:relative;
+    top:-20%;
+    margin:0;
+   <!-- background:url(../images/back.jpg);-->
+}
+
+#canvas1{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 2;
+}
+
+#canvas2{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 0;
+}
+
+#score{
+    position:absolute;
+    left:5%;
+    top:10%;
+    z-index:2;
+    font-size:5em;
+}
+
+#end{
+    display: none;
+    width:100%;
+    height:80%;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+
+#result{
+    display: none;
+    position:absolute;
+    left:20%;
+    top:0;
+    width:60%;
+    height:50%;
+    background-image:url(../images/end.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#result_score{
+    position:absolute;
+    left:30%;
+    top:70%;
+    font-size:3em;
+}
+
+#upload{
+    display: none;
+    position:absolute;
+    left:10%;
+    top:0;
+    width:80%;
+    height:50%;
+    background-image:url(../images/upload.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+#name{
+    position:absolute;
+    top:13%;
+    left:38%;
+    width:50%;
+    background-color:transparent;
+    border:1px solid #fff;
+    font-size:2em;
+    z-index:3;
+}
+
+#phone{
+    position:absolute;
+    top:36%;
+    left:38%;
+    width:50%;
+    border:1px solid #fff;
+    background-color:transparent;
+    font-size:2em;
+    z-index:3;
+}
+
+#upload1{
+    position:absolute;
+    top:75%;
+    left:25%;
+    width:50%;
+    height:20%;
+}
+#upload2{
+    position:absolute;
+    top:100%;
+    left:25%;
+    width:50%;
+    height:20%;
+}
+
+#rank{
+    position:absolute;
+    left:0;
+    top:0;
+    display: none;
+    width:100%;
+    height:80%;
+    background-image:url(../images/score.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#list{
+    position:absolute;
+    left:10%;
+    width:80%;
+    height:60%;
+    top:20%;
+    overflow:auto;
+    font-size:2em;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+}
+
+.ulname{
+text-align:left;
+}
+
+.ulphone{
+text-align:center;
+}
+
+.ulrank{
+text-align:right;
+}
+
+
+#list ul{
+   display:block;
+   width:100%;  
+   margin:5px 0;
+}
+
+#list li{
+   width:33%;
+   float:left;  
+   white-space:nowrap; 
+   overflow:hidden;
+   text-overflow:ellipsis;
+
+}
+
+
+#rank img{
+    position:absolute;
+    top:80%;
+    left:25%;
+    width:50%;
+    height:20%;
+}
+
+#rank a{
+    display:block;
+    position:absolute;
+    top:105%;
+    left:25%;
+    width:50%;
+    height:20%;
+    font-size:2em;
+    color:black;
+    text-align:center;
+}
+
+

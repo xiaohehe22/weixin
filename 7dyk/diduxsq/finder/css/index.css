@@ -1,0 +1,417 @@
+#bg{
+    margin:0 auto;
+}
+
+.back{
+    background-color: #fb6c50;
+}
+
+
+#header{
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+
+#header img{
+    width:0;
+    height:0;
+}
+
+#body{
+    width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+#footer{
+    width:100%;
+    height:0;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+#logo{
+    display:none;
+    width:100%;
+    height:100%;
+    color:white;
+}
+
+#logo img{
+    width:100%;
+    height:100%;
+    margin:0; 
+}
+
+#start{
+    display:none;
+    width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+    color:white;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0;
+    color:white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em 0;
+    color:white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+#header1{
+    width:40%;
+    height:5%;
+    margin:2.5% 30%;
+}
+
+#header2{
+    width:60%;
+    height:8%;
+    margin:1% 20%;
+}
+
+#startimg{
+    width:40%;
+    height:30%;
+    margin:2.5% 30%;
+}
+
+
+.inputallbak{
+    background-color:#FFD700;
+    color:white;    
+    width:30%;    
+    height:8%;
+    font-size:1.5em;
+    text-shadow: 1px 1px 1px #000;
+    border-color:white;
+    border-style:solid;
+    border-radius:5px;  
+}
+
+.inputall{  
+    width:30%;    
+    height:8%; 
+    margin:0 35%;
+     background-color:transparent;
+    border-color:transparent;
+    outline:none;
+}
+
+#input1{
+   background-image:url(../images/input1.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+
+#input2{
+   background-image:url(../images/input2.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+
+#input3{
+   background-image:url(../images/input3.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+
+
+#header3{
+    width:60%;
+    height:10%;
+    margin:0 20%;
+}
+
+.footerlogo{
+    position:absolute;
+    left:0;
+    top:88%;
+    width:60%;
+    margin:2% 20%;
+    height:8%;
+
+}
+
+.finderfooter{
+    position:absolute;
+    width:100%;
+    height:8%;
+    left:0;
+    top:90%;
+    text-align:center;
+    font-size:1.5em;
+}
+
+.finderfooter img{
+    margin:0 2%;
+    width:8%;
+    height:80%;
+    vertical-align:middle;
+}
+
+
+
+#game{
+    color:white;
+    display:none;
+    width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+#header21{
+    width:60%;
+    height:8%;
+    margin:1% 20%;
+}
+
+
+#datas{
+    margin:0 5%;
+    position:relative;
+    top;0;
+    left:0;
+    width:90%;
+    height:8%;
+}
+
+
+#datas div{
+    margin:0;
+    font-size:2em; 
+    height:1.5em;   
+    line-height:1.5em;    
+}
+
+#level{
+    position:absolute;
+    left:0;
+    color:white;
+    border:2px solid  transparent;
+    text-align:left;
+    width:50%; 
+}
+
+
+#round{
+    position:absolute;
+    left:50%;
+    color:white;
+    text-align:center;
+    width:25%; 
+}
+
+#time{
+    position:absolute;
+    width:25%; 
+    left:75%;
+    color:white;
+    background-image:url(../images/yellow.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+
+
+#main{
+    width:90%;
+    height:68.5%;
+    margin:0 5%;
+    z-index:2;
+}
+
+#main div{
+    float:left;
+    border-radius:1px;
+}
+
+.right{
+    width:100%;
+    height:100%;
+}
+
+.fault{
+    width:100%;
+    height:100%;
+}
+
+#end{
+    color:white;
+     display:none;
+     width:100%;
+     height:100%;
+     position:relative;
+     top:0;
+     left:0;
+ }
+
+#result{
+    display:none;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#input31{
+   background-image:url(../images/input31.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+}
+
+
+#input32{
+   background-image:url(../images/input32.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+}
+
+#input33{
+   background-image:url(../images/input3.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+}
+
+
+.zhuanfa{    
+    width:15%;
+    height:10%;
+    margin:0 0 0 80%;
+
+}
+
+.line{
+    width:100%;
+    height:2%;
+}
+
+
+.ps{
+    width:70%;
+    height:35%;
+    margin:0 15%;
+
+}
+
+
+#upload{
+    display:none;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#upload p{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0;
+    color:white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#upload p input{
+    margin:0;
+    width:40%;
+    font-size: 1em;
+    border-color:white;
+    border-style:solid;
+    border-width:0 0 2px 0;  
+}
+
+
+
+#input41{
+   width:33%;
+   margin:0 33.5%;
+   background-image:url(../images/input41.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+}
+
+#input42{
+   background-image:url(../images/input32.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+}
+
+
+#rank{
+    display:none;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+#list{
+   background-image:url(../images/rank.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+    margin:0 10%;
+    padding:20% 0 0 0;
+    width:80%;
+    height:60%;
+    overflow:auto;
+    font-size:1.5em;
+
+}
+
+#input51{
+   background-image:url(../images/input32.png);
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+
+}
+
+
+#list ul{
+   display:block;
+   width:100%;  
+}
+
+#list li{
+    margin:1px 0;
+    color:white;
+   text-align:center;
+   width:25%;
+   float:left;  
+   white-space:nowrap; 
+   overflow:hidden;
+   text-overflow:ellipsis;
+
+}
+
+#rank input{
+margin:3% 35% 0;
+}

@@ -1,0 +1,22 @@
+.date{
+text-align: center;
+
+}
+
+.date p{
+font-size: 1em;
+text-align: center;
+
+}
+
+.date input{
+width:40%
+
+}
+
+#result ul{
+    list-style-type:none;
+font-size: 1em;
+text-align: center;
+
+}
