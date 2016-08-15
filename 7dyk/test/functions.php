@@ -26,6 +26,8 @@ function filled_out($form_vars){
     return true;
 }
 
+
+
 function https_request($url, $data = null)
 {
     $curl = curl_init();
@@ -52,7 +54,7 @@ function nickname($access_token,$openid){
 
 
 function qrcode($access_token,$openid){
-    if(isexist($openid)){
+    if(isexistid($openid)){
         $mysql = db_connect();
         $nickname=nickname($access_token,$openid);
         $query="insert into user(nickname,openid) VALUES('$nickname','$openid')";
@@ -119,15 +121,15 @@ function downloadImageFromWeixin($url){
 }
 
 
-function vote($openid,$sourceId,$fromUsername,$access_token){
+function vote($openid,$sourceId,$access_token){
 
     $mysql = db_connect();
     $nickname=nickname($access_token,$openid);
     //$query="insert into user(nickname,openid) VALUES('$nickname','$openid')";
     //$result = $mysql->query($query);
-    $sql = "update user set vote = vote+1 where openid='$sourceId'";
+    $sql = "update user set vote = vote+1 where sourceid='$sourceId'";
     $mysql->query($sql);
-    $sql = "select vote from user where openid='$sourceId'";
+    $sql = "select vote from user where sourceid='$sourceId'";
     $result = $mysql->query($sql);
     $test=$result->fetch_array();
     $msgType = "text";
@@ -155,7 +157,7 @@ function vote($openid,$sourceId,$fromUsername,$access_token){
 /*
  * 是否存在该openid，存在返回ture，不存在false
  */
-function isexist($openId){
+function isexistid($openId){
     $mysql = db_connect();
     $query="select openid from user where openid='$openId'";
     $result = $mysql->query($query);
@@ -170,4 +172,88 @@ function isexist($openId){
             return false;
         }
     }
+}
+
+function isexist_sourceid($openId){
+    $mysql = db_connect();
+    $query="select openid from user where sourceid='$openId'";
+    $result = $mysql->query($query);
+    mysqli_close($mysql);
+    if(!$result){
+        return  false;
+    }else{
+        $test=$result->fetch_array();
+        if (count($test)!=0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
+
+
+function send_template($access_token,$openid){
+    $template = array('touser'=>"$openid",
+        'template_id'=>"cqqzGqDiNs-e2fHAW59I9WIDFU_8USnYwQ-R_aXvTmU",
+        'topcolor'=>"#7b68EE",
+        'data'=>array()
+    );
+    $data=urldecode(json_encode($template));
+    $url="https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=$access_token";
+    $res=https_request($url,$data);
+    var_dump(json_decode($res,true));
+}
+
+function send_image($access_token,$openid,$media_id){
+    $url="https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=$access_token";
+    $img =  array('touser'=>"$openid",
+        'msgtype'=>"image",
+        'image'=>array(
+            'media_id'=>"$media_id"
+        )
+    );
+    $data=json_encode($img);
+    $result=https_request($url,$data);
+    return $result;
+}
+
+
+function send_text($access_token,$openid,$content){
+    $url="https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=$access_token";
+    $text =  array('touser'=>"$openid",
+        'msgtype'=>"text",
+        'text'=>array(
+            'content'=>urlencode($content)
+        )
+    );
+    $data=urldecode(json_encode($text));
+    $result=https_request($url,$data);
+    return $result;
+}
+
+
+function get_access_token($appid,$appsecret){
+    $url="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=$appid&secret=$appsecret";
+    $res=https_request($url);
+    $result=json_decode($res,true);
+    return $result["access_token"];
+}
+
+
+function get_image($access_token){
+    $filepath=dirname(__FILE__).'/bg4.jpg';
+    if (class_exists ( '\CURLFile' )) {//关键是判断curlfile,官网推荐php5.5或更高的版本使用curlfile来实例文件
+        $filedata = array (
+            'media' => new \CURLFile ( realpath ( $filepath ), 'image/jpeg' )
+        );
+    } else {
+        $filedata = array (
+            'media' => '@'.$filepath
+        );
+    }
+
+    $urlMediaId="https://file.api.weixin.qq.com/cgi-bin/media/upload?access_token=$access_token&type=image";
+    $result=https_request($urlMediaId,$filedata);
+    $json=json_decode($result,true);
+    return $json['media_id'];
 }

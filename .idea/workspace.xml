@@ -23,14 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7dyk/test/index.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7dyk/test/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+            <state relative-caret-position="630">
+              <caret line="230" column="18" selection-start-line="230" selection-start-column="18" selection-end-line="230" selection-end-column="18" />
               <folding>
-                <marker date="1471085469856" expanded="true" signature="1563:1941" ph="..." />
-                <marker date="1471085469856" expanded="true" signature="2010:2404" ph="..." />
+                <element signature="e#5081#5178#0#PHP" expanded="false" />
+                <element signature="e#5475#5572#0#PHP" expanded="false" />
+                <marker date="1471253599398" expanded="true" signature="1438:1501" ph="insert into user... " />
+                <marker date="1471253599398" expanded="true" signature="3757:3791" ph="insert into user... " />
+                <marker date="1471253599398" expanded="true" signature="3757:3820" ph="insert into user... " />
+                <marker date="1471253599398" expanded="true" signature="3768:3791" ph="select openi... user" />
+                <marker date="1471253599398" expanded="true" signature="3874:3930" ph="update user " />
+                <marker date="1471253599398" expanded="true" signature="3970:4018" ph="select vote user" />
+                <marker date="1471253599398" expanded="true" signature="3970:4054" ph="select vote user" />
+                <marker date="1471253599398" expanded="true" signature="4133:4511" ph="..." />
+                <marker date="1471253599398" expanded="true" signature="4763:4802" ph="/* * 是否存在该op... " />
+                <marker date="1471253599398" expanded="true" signature="4871:4908" ph="select * fro... user" />
+                <marker date="1471253599398" expanded="true" signature="4871:4917" ph="select openi... user" />
+                <marker date="1471253599398" expanded="true" signature="5263:5311" ph="select openi... user" />
               </folding>
             </state>
           </provider>
@@ -39,10 +51,10 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7dyk/test/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="342">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
-                <marker date="1471084821359" expanded="true" signature="300:337" ph="select openi... user" />
+                <element signature="e#6#83#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,32 +63,21 @@
       <file leaf-file-name="qrcode.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7dyk/test/qrcode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-828">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="e#6#83#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7dyk/test/functions.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7dyk/test/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="135" column="67" selection-start-line="135" selection-start-column="67" selection-end-line="135" selection-end-column="67" />
+            <state relative-caret-position="648">
+              <caret line="118" column="54" selection-start-line="118" selection-start-column="54" selection-end-line="118" selection-end-column="54" />
               <folding>
-                <marker date="1471085359039" expanded="true" signature="1434:1497" ph="insert into user... " />
-                <marker date="1471085359039" expanded="true" signature="3767:3801" ph="insert into user... " />
-                <marker date="1471085359039" expanded="true" signature="3767:3830" ph="insert into user... " />
-                <marker date="1471085359039" expanded="true" signature="3778:3801" ph="select openi... user" />
-                <marker date="1471085359039" expanded="true" signature="3884:3938" ph="update user " />
-                <marker date="1471085359039" expanded="true" signature="3978:4024" ph="select vote user" />
-                <marker date="1471085359039" expanded="true" signature="3978:4060" ph="select vote user" />
-                <marker date="1471085359039" expanded="true" signature="4139:4517" ph="..." />
-                <marker date="1471085359039" expanded="true" signature="4769:4808" ph="/* * 是否存在该op... " />
-                <marker date="1471085359039" expanded="true" signature="4875:4912" ph="select * fro... user" />
-                <marker date="1471085359039" expanded="true" signature="4875:4921" ph="select openi... user" />
+                <marker date="1471253751029" expanded="true" signature="1572:1950" ph="..." />
+                <marker date="1471253751029" expanded="true" signature="2019:2413" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,7 +134,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="width" value="1932" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -207,25 +209,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="qixi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7dyk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openday" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,23 +301,24 @@
       <workItem from="1471008771029" duration="4122000" />
       <workItem from="1471018037365" duration="6567000" />
       <workItem from="1471052626724" duration="29735000" />
+      <workItem from="1471226540929" duration="17902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149735000" />
+    <option name="totallyTimeSpent" value="167637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1932" height="1050" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21839081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -345,25 +330,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21839081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -378,41 +344,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/7dyk/test/test.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/diduxsq/class_member.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/class_register.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/class_vote.php" />
-    <entry file="file://$PROJECT_DIR$/test.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/uibe.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/vote2.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/vote_mid.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/class_vote.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/class_register.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/class_member.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/register.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/songjiang.php" />
-    <entry file="file://$PROJECT_DIR$/regishter/regishter.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/vote.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/aa.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/index.htm" />
-    <entry file="file://$PROJECT_DIR$/newapp/index.php" />
-    <entry file="file://$PROJECT_DIR$/7dyk/functions.php" />
-    <entry file="file://$PROJECT_DIR$/7dyk/index.php" />
-    <entry file="file://$PROJECT_DIR$/7dyk/vote.php" />
-    <entry file="file://$PROJECT_DIR$/7dyk/register.php" />
-    <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/diduxsq/menu.php" />
     <entry file="file://$PROJECT_DIR$/7dyk/test/register.php" />
     <entry file="file://$PROJECT_DIR$/diduxsq/weixin.php" />
     <entry file="file://$PROJECT_DIR$/7dyk/bg.jpg" />
@@ -420,7 +356,6 @@
     <entry file="file://$PROJECT_DIR$/7dyk/test/vote.php" />
     <entry file="file://$PROJECT_DIR$/diduxsq/testweixin.php" />
     <entry file="file://$USER_HOME$/Desktop/api.php" />
-    <entry file="file://$USER_HOME$/Desktop/index.php" />
     <entry file="file://$PROJECT_DIR$/7dyk/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2718">
@@ -543,53 +478,306 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7dyk/test/test.php">
+    <entry file="file://$USER_HOME$/Desktop/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="-1512">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/zyq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/xsxq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/weixin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="873">
+          <caret line="233" column="9" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="9" />
           <folding>
-            <marker date="1471084821359" expanded="true" signature="300:337" ph="select openi... user" />
+            <marker date="1470362472691" expanded="true" signature="4637:4979" ph="..." />
+            <marker date="1470362472691" expanded="true" signature="5257:5431" ph="..." />
+            <marker date="1470362472691" expanded="true" signature="5623:5874" ph="..." />
+            <marker date="1470362472691" expanded="true" signature="5846:5867" ph="..." />
+            <marker date="1470362472691" expanded="true" signature="6155:6202" ph="..." />
+            <marker date="1470362472691" expanded="true" signature="6313:6479" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7dyk/test/qrcode.php">
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/vote_mid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/uibe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/vote2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452841619000" expanded="true" signature="182:229" ph="select id fr... votemember2" />
+            <marker date="1452841619000" expanded="true" signature="401:488" ph="insert into votemember2... " />
+            <marker date="1452841619000" expanded="true" signature="561:608" ph="select id fr... votemember2" />
+            <marker date="1452841619000" expanded="true" signature="857:904" ph="select id fr... votemember2" />
+            <marker date="1452841619000" expanded="true" signature="1064:1196" ph="select m.id,... votemember2" />
+            <marker date="1452841619000" expanded="true" signature="2596:2647" ph="select id fr... voteinfo2" />
+            <marker date="1452841619000" expanded="true" signature="2810:2857" ph="select id fr... votemember2" />
+            <marker date="1452841619000" expanded="true" signature="3024:3096" ph="insert into voteinfo2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/vote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458388806000" expanded="true" signature="165:280" ph="select id fr... votemember" />
+            <marker date="1458388806000" expanded="true" signature="453:594" ph="insert into votemember... " />
+            <marker date="1458388806000" expanded="true" signature="667:782" ph="select id fr... votemember" />
+            <marker date="1458388806000" expanded="true" signature="1025:1071" ph="select id fr... votemember" />
+            <marker date="1458388806000" expanded="true" signature="1232:1352" ph="select m.id,... votemember" />
+            <marker date="1458388806000" expanded="true" signature="2558:2608" ph="select id fr... voteinfo" />
+            <marker date="1458388806000" expanded="true" signature="3857:3927" ph="insert into voteinfo... " />
+            <marker date="1458388806000" expanded="true" signature="4214:4417" ph="insert into votemember2... " />
+            <marker date="1458388806000" expanded="true" signature="4490:4602" ph="select id fr... votemember2" />
+            <marker date="1458388806000" expanded="true" signature="4852:4899" ph="select id fr... votemember2" />
+            <marker date="1458388806000" expanded="true" signature="6598:6645" ph="select id fr... votemember2" />
+            <marker date="1458388806000" expanded="true" signature="6815:6887" ph="insert into voteinfo2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/diduxsq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/getm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/diduxsq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452182559000" expanded="true" signature="7868:8246" ph="..." />
+            <marker date="1452182559000" expanded="true" signature="8524:8698" ph="..." />
+            <marker date="1452182559000" expanded="true" signature="8890:9141" ph="..." />
+            <marker date="1452182559000" expanded="true" signature="9113:9134" ph="..." />
+            <marker date="1452182559000" expanded="true" signature="9422:9469" ph="..." />
+            <marker date="1452182559000" expanded="true" signature="9580:9746" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/clickdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444898956000" expanded="true" signature="569:668" ph="select i.nam... visitinfo" />
+            <marker date="1444898956000" expanded="true" signature="1612:1654" ph="insert into visitinfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/aa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470213204512" expanded="true" signature="196:237" ph="select id fr... users" />
+            <marker date="1470213204512" expanded="true" signature="388:431" ph="select id fr... votes" />
+            <marker date="1470213204512" expanded="true" signature="576:617" ph="insert into votes... " />
+            <marker date="1470213204512" expanded="true" signature="670:721" ph="update users... " />
+            <marker date="1470213204512" expanded="true" signature="898:941" ph="select vote users" />
+            <marker date="1470213204512" expanded="true" signature="1311:1352" ph="select vote users" />
+            <marker date="1470213204512" expanded="true" signature="3715:4093" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459666708000" expanded="true" signature="144:207" ph="insert into voteinfo... " />
+            <marker date="1459666708000" expanded="true" signature="384:510" ph="SELECT m.id,... votemember" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/allschool.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459750123000" expanded="true" signature="99:128" ph="SELECT count... voteinfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/bjtu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459749754000" expanded="true" signature="130:318" ph="SELECT m.id,... votemember" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/bnu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459749751000" expanded="true" signature="131:318" ph="SELECT m.id,... votemember" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/buct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459749750000" expanded="true" signature="131:319" ph="SELECT m.id,... votemember" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/bupt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459749734000" expanded="true" signature="128:316" ph="SELECT m.id,... votemember" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/class_member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/class_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/diduxsq/class_vote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/test/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
             <element signature="e#6#83#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/7dyk/test/qrcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/7dyk/test/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="135" column="67" selection-start-line="135" selection-start-column="67" selection-end-line="135" selection-end-column="67" />
+        <state relative-caret-position="630">
+          <caret line="230" column="18" selection-start-line="230" selection-start-column="18" selection-end-line="230" selection-end-column="18" />
           <folding>
-            <marker date="1471085359039" expanded="true" signature="1434:1497" ph="insert into user... " />
-            <marker date="1471085359039" expanded="true" signature="3767:3801" ph="insert into user... " />
-            <marker date="1471085359039" expanded="true" signature="3767:3830" ph="insert into user... " />
-            <marker date="1471085359039" expanded="true" signature="3778:3801" ph="select openi... user" />
-            <marker date="1471085359039" expanded="true" signature="3884:3938" ph="update user " />
-            <marker date="1471085359039" expanded="true" signature="3978:4024" ph="select vote user" />
-            <marker date="1471085359039" expanded="true" signature="3978:4060" ph="select vote user" />
-            <marker date="1471085359039" expanded="true" signature="4139:4517" ph="..." />
-            <marker date="1471085359039" expanded="true" signature="4769:4808" ph="/* * 是否存在该op... " />
-            <marker date="1471085359039" expanded="true" signature="4875:4912" ph="select * fro... user" />
-            <marker date="1471085359039" expanded="true" signature="4875:4921" ph="select openi... user" />
+            <element signature="e#5081#5178#0#PHP" expanded="false" />
+            <element signature="e#5475#5572#0#PHP" expanded="false" />
+            <marker date="1471253599398" expanded="true" signature="1438:1501" ph="insert into user... " />
+            <marker date="1471253599398" expanded="true" signature="3757:3791" ph="insert into user... " />
+            <marker date="1471253599398" expanded="true" signature="3757:3820" ph="insert into user... " />
+            <marker date="1471253599398" expanded="true" signature="3768:3791" ph="select openi... user" />
+            <marker date="1471253599398" expanded="true" signature="3874:3930" ph="update user " />
+            <marker date="1471253599398" expanded="true" signature="3970:4018" ph="select vote user" />
+            <marker date="1471253599398" expanded="true" signature="3970:4054" ph="select vote user" />
+            <marker date="1471253599398" expanded="true" signature="4133:4511" ph="..." />
+            <marker date="1471253599398" expanded="true" signature="4763:4802" ph="/* * 是否存在该op... " />
+            <marker date="1471253599398" expanded="true" signature="4871:4908" ph="select * fro... user" />
+            <marker date="1471253599398" expanded="true" signature="4871:4917" ph="select openi... user" />
+            <marker date="1471253599398" expanded="true" signature="5263:5311" ph="select openi... user" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7dyk/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+        <state relative-caret-position="648">
+          <caret line="118" column="54" selection-start-line="118" selection-start-column="54" selection-end-line="118" selection-end-column="54" />
           <folding>
-            <marker date="1471085469856" expanded="true" signature="1563:1941" ph="..." />
-            <marker date="1471085469856" expanded="true" signature="2010:2404" ph="..." />
+            <marker date="1471253751029" expanded="true" signature="1572:1950" ph="..." />
+            <marker date="1471253751029" expanded="true" signature="2019:2413" ph="..." />
           </folding>
         </state>
       </provider>

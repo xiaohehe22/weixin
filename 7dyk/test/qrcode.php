@@ -7,7 +7,7 @@
  */
 
 $openid="oFOw6w0hKMUFJ9X1OxTOe_zi2v2E";
-define("access_token","TYGN3F7P6i_7dtqdxNRRGZ5EZAe1Ynk845ecP6841rSv1OcRTDhP_IlnaDX4606ruGBIM9SWgsBgOjQcTJ1yOMQZT1ZPDNfI8yv9NdNfe8pdWdYrQnPvUqJ9hbR21hm8JFJgAEAWSW");
+define("access_token","DiXPsAIFkQg4r_RVQx9uw_IhFxTFFXa5QTYDiZlO9LVu6IBJTIMfv-YsH2y6CRhl03WWd__U6mYK8GOPy61oAmt1J6UhFEqGJoCXZrv8R_MUPCcAIAPKX");
 $access_token=access_token;
 $url = "https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=$access_token";
 
