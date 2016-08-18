@@ -15,28 +15,26 @@ $this_token =json_decode($json,true)["access_token"];
 $MENU_URL="https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$this_token;
 
 
-$data = '{
- "button":[           
-  {
-       "name":"分支主菜单名",　　
-       "sub_button":[　　　　
-        {
-           "type":"click",　　
-           "name":"分支子菜单名1",　　
-           "key":"loveSuzhou"　　
-        },
-        {
-           "type":"click",
-           "name":"分支子菜单名2",
-           "key":"liveSuzhou"
-        }]
-   },　　　　
-   {
-       "type":"click",
-       "name":"7：15Fm",
-       "key":"lianxiUs"
-   }]
-}';
+$data = ' {
+
+     "button":[
+     {
+           "name":"书单资料",
+           "sub_button":[
+           {	
+               "type":"click",
+               "name":"过来人推荐",
+               "key":"menu1";
+            },
+            {
+               "type":"click",
+               "name":"入门宝典",
+               "key":"menu2";
+            },
+       }
+       
+       ]
+ }';
 
 
 $ch = curl_init(); 

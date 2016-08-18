@@ -62,8 +62,6 @@ function qrcode($access_token,$openid){
     }
 
     $url = "https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=$access_token";
-
-
     $qrcode='{"action_name": "QR_LIMIT_STR_SCENE","action_info": {"scene": {"scene_str": "'.$openid.'"}}}';
     $output = https_request($url,$qrcode);
 

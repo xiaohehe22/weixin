@@ -56,22 +56,13 @@ class wechatCallbackapiTest
             $toUsername = $postObj->ToUserName;
             $keywords = trim($postObj->Content);
             $time = time();
-            $msgType[0] = "text";
-            $textTpl[0] = "<xml>
+            $msgType= "text";
+            $textTpl= "<xml>
                         <ToUserName><![CDATA[%s]]></ToUserName>
                         <FromUserName><![CDATA[%s]]></FromUserName>
                         <CreateTime>%s</CreateTime>
                         <MsgType><![CDATA[%s]]></MsgType>
                         <Content><![CDATA[%s]]></Content>
-                        <FuncFlag>0</FuncFlag>
-                        </xml>";
-            $msgType[1]= "image";
-            $textTpl[1] = "<xml>
-                        <ToUserName><![CDATA[%s]]></ToUserName>
-                        <FromUserName><![CDATA[%s]]></FromUserName>
-                        <CreateTime>%s</CreateTime>
-                        <MsgType><![CDATA[%s]]></MsgType>
-                         <Image><MediaId><![CDATA[%s]]></MediaId></Image>
                         <FuncFlag>0</FuncFlag>
                         </xml>";
 
@@ -82,14 +73,14 @@ class wechatCallbackapiTest
                         $sourceId=str_replace("qrscene_","",$postObj->EventKey);
                         if(!isexistid($fromUsername)){
                             $contentStr='欢迎关注';
-                            $result=sprintf($textTpl[0], $fromUsername, $toUsername, $time, $msgType[0], $contentStr);
+                            $result=sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                             echo $result;
                             break;
                         }
                         if(isexist_sourceid($sourceId)){
                             //$contentStr='测试2';
                             $contentStr=vote($fromUsername,$sourceId,$toUsername,access_token);
-                            $result=sprintf($textTpl[0], $fromUsername, $toUsername, $time, $msgType[0], $contentStr);
+                            $result=sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                             echo $result;
                         }
                         //$picurl=qrcode(access_token,$fromUsername);
@@ -109,7 +100,7 @@ class wechatCallbackapiTest
                     break;
                 case "ppt":
                     $contentStr='请分享下面的海报到朋友圈，并配文字“已报名”，截图发送到后台就可以啦';
-                    $result=sprintf($textTpl[0], $fromUsername, $toUsername, $time, $msgType[0], $contentStr);
+                    $result=sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                     echo $result;
                     $media_id=get_image(access_token);
                     send_image(access_token,$fromUsername,$media_id);
@@ -117,7 +108,7 @@ class wechatCallbackapiTest
             }
             if($postObj->MsgType=="image"){
                 $contentStr='小师兄收到啦，直播结束后PPT就会飞到你手中了';
-                $result=sprintf($textTpl[0], $fromUsername, $toUsername, $time, $msgType[0], $contentStr);
+                $result=sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 echo $result;
             }
         }else{
